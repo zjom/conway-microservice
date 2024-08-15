@@ -10,6 +10,8 @@ To run the server, run:
 go run main.go
 ```
 
+To check that the server is running, you can send a GET request to `http://localhost:8080/health`.
+
 ### Protocol
 This endpoint receives a JSON object with the following structure:
 ```json
